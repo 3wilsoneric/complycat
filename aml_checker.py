@@ -1,19 +1,19 @@
 # complycat/aml_checker.py
-from typing import List
+from typing import Dict, List
 
 class AMLChecker:
     def __init__(self):
-        # Initialize the AML rules
-        self.aml_rules = []
+        # Initialize AML checking rules
+        self.aml_rules = {}
 
-    def load_predefined_rules(self):
-        # Load predefined AML rules
+    def load_aml_rules(self):
+        # Load AML checking rules
         pass
 
-    def add_custom_rule(self, rule):
-        # Add a custom AML rule
+    def add_custom_aml_rule(self, rule_name, rule_function):
+        # Add custom AML checking rule
         pass
 
     def check_transaction(self, transaction_data):
-        # Perform AML compliance checks on the transaction data
+        # Perform AML compliance check on transaction data
         pass
